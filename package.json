@@ -1,0 +1,34 @@
+{
+  "name": "use-interval-time",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "jest",
+    "bundle": "yarn build && yarn test && yarn pack"
+  },
+  "repository": "https://github.com/EGAdams/use-interval-time.git",
+  "author": "egadams <31349790+EGAdams@users.noreply.github.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^17.0.43",
+    "jest": "^27.5.1",
+    "react": "^18.0.0",
+    "react-test-renderer": "^18.0.0",
+    "rollup": "^2.70.1",
+    "ts-jest": "^27.1.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
+  },
+  "files": [ 
+      "dist"
+  ]
+}

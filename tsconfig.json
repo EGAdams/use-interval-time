@@ -1,0 +1,16 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "dist",
+        "src/**/*.test.ts"
+    ],
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "target": "ES6",
+        "outDir": "dist",
+        "declaration": true,
+        "declarationDir": "."
+    }
+}
